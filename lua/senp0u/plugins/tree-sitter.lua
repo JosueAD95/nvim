@@ -13,6 +13,7 @@ return { -- Highlight, edit, and navigate code
 			additional_vim_regex_highlighting = { "ruby" },
 		},
 		indent = { enable = true, disable = { "ruby" } },
+		autotag = { enable = true, disable = {} },
 	},
 	config = function(_, opts)
 		-- [[ Configure Treesitter ]] See `:help nvim-treesitter`
